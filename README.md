@@ -8,9 +8,33 @@
 
 比如，如果你的子域名为forever，那么相应的地址应该为`http://i.91wedding.com/sites/forever/data`
 
+### 设置封面滚动图片
+
+您可以首先将封面滚动图片上传到后台的媒体库中，然后将图片的链接设置在`_includes/home.html`中。
+
+### 修改滚动图片上的欢迎信息
+
+修改文件`_includes/invitation.html`。
+
+### 修改地图说明文字
+
+修改文件`_includes/map.html`。
+
+### 修改参加婚礼报名模块的文字
+
+修改文件`_includes/wedding.html`。
+
+### 设置背景音乐
+
+修改`_includes/music.html`中音乐文件的链接地址。
+
 ### 设置评论功能
 
 本模板默认使用[友言](http://www.uyan.cc/)评论系统。你需要在友言上面注册帐号，然后将帐号id设置在`_config.yml`的`youyan`字段。
+
+### 修改婚礼信息侧栏图片
+
+在`_includes/wedding.html`中将`/images/wedding.jpg`替换为你自己图片的链接地址。
 
 ## 高级功能
 
