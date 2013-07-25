@@ -44,6 +44,10 @@
 
 修改文件`_includes/footer.html`。
 
+### 修改背景音乐
+
+修改文件`_includes/music.html`，将`http://assets.91wedding.com/2/bucket/this-ring.mp3`替换为你自己的mp3的链接地址。
+
 ## 高级功能
 
 ### 使用disqus评论系统
