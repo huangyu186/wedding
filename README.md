@@ -8,6 +8,14 @@
 
 比如，如果你的子域名为forever，那么相应的地址应该为`http://i.91wedding.com/sites/forever/data`
 
+### 修改网站名称
+
+修改文件`_layouts/default.html`。
+
+### 修改导航栏文字
+
+修改文件`_includes/navigation.html`。
+
 ### 设置封面滚动图片
 
 您可以首先将封面滚动图片上传到后台的媒体库中，然后将图片的链接设置在`_includes/home.html`中。
@@ -16,17 +24,13 @@
 
 修改文件`_includes/invitation.html`。
 
-### 修改地图说明文字
-
-修改文件`_includes/map.html`。
-
 ### 修改参加婚礼报名模块的文字
 
 修改文件`_includes/wedding.html`。
 
-### 设置背景音乐
+### 修改地图说明文字
 
-修改`_includes/music.html`中音乐文件的链接地址。
+修改文件`_includes/map.html`。
 
 ### 设置评论功能
 
@@ -35,6 +39,10 @@
 ### 修改婚礼信息侧栏图片
 
 在`_includes/wedding.html`中将`/images/wedding.jpg`替换为你自己图片的链接地址。
+
+### 修改网站底部文字
+
+修改文件`_includes/footer.html`。
 
 ## 高级功能
 
