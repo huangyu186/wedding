@@ -60,8 +60,11 @@
     map.centerAndZoom(point, {{site.wedding.map.zoom}}); //设置地图中心坐标
     map.addControl(new BMap.NavigationControl());  //添加默认缩放平移控件
 
-    {% for marker in site.wedding.map.markers %}
-      map.addOverlay(makeMarker({{marker.latitude}}, {{marker.longitude}}, '{{marker.title}}', '{{marker.content}}'));
-    {% endfor %}
+    var markers = {{ site.wedding.map.markers | json }};
+
+    for (var i = 0; i < markers.length; i++) {
+      var marker = markers[i];
+      map.addOverlay(makeMarker(marker.latitude, marker.longitude, marker.title, marker.content));
+    }
   }
 </script>
