@@ -48,6 +48,8 @@
 
 修改文件`_includes/music.html`，将`http://assets.91wedding.com/2/bucket/this-ring.mp3`替换为你自己的mp3的链接地址。
 
+本模板所使用的音乐插件是dewplayer，高级用户可以访问其[主页](http://www.alsacreations.fr/dewplayer-en.html)，进行高级定制。
+
 ## 高级功能
 
 ### 使用disqus评论系统
