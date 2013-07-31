@@ -4,9 +4,9 @@
 
 ### 设置数据源地址
 
-在`_config.yml`中，将`http://i.91wedding.com/sites/classic/data`修改为你自己网站的数据源。
+在`_config.yml`中，将`http://i.91wedding.com/api/sites/classic/data?version=v1`修改为你自己网站的数据源。
 
-比如，如果你的子域名为forever，那么相应的地址应该为`http://i.91wedding.com/sites/forever/data`
+比如，如果你的子域名为forever，那么相应的地址应该为`http://i.91wedding.com/api/sites/classic/data?version=v1`
 
 ### 修改网站名称
 
