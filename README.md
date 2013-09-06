@@ -4,9 +4,11 @@
 
 ### 设置数据源地址
 
-在`_config.yml`中，将`http://i.91wedding.com/api/sites/classic/data?version=v1`修改为你自己网站的数据源。
+在`_config.yml`中，将`data_sources.url`修改为你自己网站的数据源。
 
-比如，如果你的子域名为forever，那么相应的地址应该为`http://i.91wedding.com/api/sites/forever/data?version=v1`。
+比如，如果你的子域名为`forever.91wedding.com`，那么相应的地址应该为：
+
+    http://i.91wedding.com/api/sites/forever/data?version=v1
 
 ### 修改网站名称
 
@@ -34,7 +36,9 @@
 
 ### 设置评论功能
 
-本模板默认使用[友言](http://www.uyan.cc/)评论系统。你需要在友言上面注册帐号，然后将帐号id设置在`_config.yml`的`youyan`字段。
+网站默认使用[disqus](http://disqus.com/)评论系统。你可以在disqus上注册帐号，建立站点。然后将`_config.yml`中`disqus_shortname`替换为你在disqus中建立网站的short name即可。
+
+注：您也可以不注册自己的站点，而实用默认的`91wedding`。这样，您将没有权限删除留言。
 
 ### 修改婚礼信息侧栏图片
 
@@ -51,24 +55,6 @@
 本模板所使用的音乐插件是dewplayer，高级用户可以访问其[主页](http://www.alsacreations.fr/dewplayer-en.html)，进行高级定制。
 
 ## 高级功能
-
-### 使用disqus评论系统
-
-你也可以选择使用[disqus](http://disqus.com/)评论系统。你可以在disqus上注册帐号，建立站点，并按照其帮助提示在模板中嵌入相关代码。
-
-在本模板中，已经包含有`_includes/disqus.html`。你只需要将`{{site.disqus_shortname}}`替换为你在disqus中建立网站的short name即可。
-
-同时，你需要修改`index.html`，将下面的行：
-
-```
-{% include comments.html %}
-```
-
-改为：
-
-```
-{% include disqus.html %}
-```
 
 ### 本地编译和调试
 
