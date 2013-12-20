@@ -5,4 +5,4 @@ disqus_shortname: 91wedding
 data_sources:
   - name: wedding # will be used as site.albums to access data, no spaces allowed
     type: json
-    url:  http://i.91wedding.com/api/sites/classic/data?version=v1
+    url:  http://i.91wedding.com/api/sites/huangyu/data?version=v1
